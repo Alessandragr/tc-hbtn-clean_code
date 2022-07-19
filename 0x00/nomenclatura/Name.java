@@ -23,14 +23,13 @@ public class Name {
     public void saveCar(){};
 
     // Uma palavra por conceito
-    //B
-    public saveUser(){}; createAccount(){}; generateContract(){};
+    //A
+    public saveUser(){}; saveAccount(){}; saveContract(){};
 
 
     //Use constants, enums instead of magic numbers, abbreviations
-    //A
-    public int daysInYear = 360;
-    public int hoursInWeek = 168;
-
+    //B
+    public final int DAYS_IN_YEAR = 360;
+    public final int HOURS_IN_WEEK = 168;
 
 }
